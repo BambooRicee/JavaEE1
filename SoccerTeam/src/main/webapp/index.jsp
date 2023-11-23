@@ -18,13 +18,18 @@
 <div class="list-group text-center py-3 px-3">
 <h2 style="color: #008000" >Функции системы</h2>
 <ul class="list-group list-group-flush">
-<li class="list-group-item list-group-item-success"><a href="#" style="color: #008000">Игроки футбольной команды</a>
-<li class="list-group-item list-group-item-dark"><a href="#" style="color: #008000">Позиции</a>
+<li class="list-group-item list-group-item-success"><a href="/SoccerTeam/person" style="color: #008000">Игроки футбольной команды</a>
+<li class="list-group-item list-group-item-dark"><a href="/SoccerTeam/role" style="color: #008000">Позиции</a>
 </ul>
  </div>
 <br><br>
 </div>
 <jsp:include page="/views/footer.jsp" />
 </div>
+<!-- jQuery -->
+<script src="js/jquery-3.6.4.js"></script>
+<!-- Bootstrap JS + Popper JS -->
+<script defer src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
