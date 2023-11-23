@@ -41,7 +41,7 @@
                <td width="20"><a href='<c:url value="/editrole?id=${role.getId()}" />'role="button" class="btn btn-outline-success">
                <img alt="Редактировать" src="images/icon-edit.png"></a></td>
                <<td width="20"><a href="<c:url value="/deleterole?id=${role.getId()}" />" role="button" class="btn btn-outline-success">
-               <img alt="Удалить" src="images/icon-delete.png" onclick="return confirm('Удалить должность с кодом: '+${role.getId()}+'?')">
+               <img alt="Удалить" src="images/icon-delete.png" onclick="return confirm('Удалить позицию с кодом: '+${role.getId()}+'?')">
                </a></td>
             </tr>
           </c:forEach>

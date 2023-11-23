@@ -60,7 +60,7 @@ role="button" class="btn btn-outline-primary">
 <a href="<c:url value="/deleteperson?id=${person.getId()}" />"
 role="button" class="btn btn-outline-primary">
 <img alt="Удалить" src="images/icon-delete.png"
-onclick="return confirm('Удалить сотрудника с кодом: '+${person.getId()}+'?')">
+onclick="return confirm('Удалить игрока с кодом: '+${person.getId()}+'?')">
 </a></td>
 </tr>
 </c:forEach>
